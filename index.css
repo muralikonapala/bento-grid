@@ -1,0 +1,137 @@
+@font-face {
+    font-family:'DMSans-VariableFont_opsz,wght';
+    src: url(./fonts/DMSans-VariableFont_opsz\,wght.ttf);
+}
+body{
+    font-family: 'DMSans-VariableFont_opsz,wght';
+    display: grid;
+    height: 100vh;
+    font-size: 18px;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(238, 239, 239);
+}
+p{
+    margin: 0%;
+}
+h1{
+    letter-spacing: -1px;
+    line-height: 62px;
+    font-size: 54px;
+    margin: 0%;
+    padding-bottom: 20px; 
+}
+h3{
+    letter-spacing: -2px;
+    line-height: 32px;
+    font-size: 32px;
+}
+.bento {
+    display: grid;
+    grid-template-columns: 250px 750px;
+    grid-template-rows: auto;
+}
+.grid-1{
+    display: grid;
+    grid-template-columns: 250px 750px;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    height: 80%;
+}
+.bento-content{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 300px 250px 250px;
+    grid-gap: 20px;
+    margin-left: 20px;
+    height: 80%;
+}
+.create-post{
+    background-color: hsl(31, 66%, 93%);
+    grid-area: 1/1/1/1;
+    border-radius: 12px;
+    padding: 50px 30px 10px 20px;
+    width: 200px;
+    height: 350px;
+}
+.content{
+    background-color: hsl(39, 100%, 71%);
+    grid-area: 2/1/2/1;
+    border-radius: 12px;
+    padding: 0px 50px 10px 20px;
+    width: 180px;
+    height: 400px;
+}
+.rating{
+    background-color: hsl(256, 67%, 59%);
+    grid-area: 1/1/1/3;
+    text-align: center;
+    color: white;
+    padding: 40px 0px;
+    border-radius: 12px;
+}
+.schedule{
+    background-color: hsl(254, 88%, 90%);
+    grid-area: 1/3/3/4;
+    padding: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+}
+.schedule img{
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.schedule h3{
+    margin: 15px 0px;
+}
+.social{
+    background-color: hsl(0, 0%, 100%);
+    grid-area: 2/1/2/2;
+    border-radius: 12px;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.social img{
+    object-fit: cover;
+    border-radius: 40px;
+}
+.social h3{
+    margin-top: 10px;
+}
+.maintain{
+    background-color: hsl(39, 100%, 71%);
+    grid-area: 2/2/2/3;
+    border-radius: 12px;
+    padding: 0px 20px 20px 20px;
+    overflow: hidden;
+    position: relative;
+}
+.maintain img{
+    object-fit: cover;
+}
+.maintain h3{
+    margin-bottom: 10px;
+}
+.audience{
+    background-color: hsl(0, 0%, 100%);
+    grid-area: 3/1/3/2;
+    border-radius: 12px;
+    padding: 20px;
+}
+.audience img{
+    margin-top: 40px;
+}
+.audience h3{
+    margin: 0;
+}
+.grow{
+    background-color: hsl(256, 67%, 59%);
+    grid-area: 3/2/3/4;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    color: white;
+    align-content: center;
+}
